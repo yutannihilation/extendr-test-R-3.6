@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test_R3.6:
+  test:
     name: Test R ${{ matrix.config.r }}
     runs-on: ubuntu-20.04
     strategy:
